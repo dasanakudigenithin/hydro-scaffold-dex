@@ -1,8 +1,0 @@
-version: "3"
-services:
-  baobob-node:
-    container_name: katlyn-boabob-enpoint-node
-    build: ./
-    ports:
-      - 8551:8551
-    restart: always
